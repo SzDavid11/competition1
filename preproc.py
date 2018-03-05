@@ -17,9 +17,6 @@ from sklearn.cross_validation import train_test_split
 from PIL import Image
 from matplotlib.pyplot import imshow
 from sklearn.preprocessing import OneHotEncoder
-from keras.models import Sequential
-from keras.layers import Dense, Flatten, Activation, Dropout, Conv2D, MaxPooling2D
-from keras.utils import np_utils
 
 def getImageAsVector(image):
     imgArray = sk.io.imread(image) # load as matrix
