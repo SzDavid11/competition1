@@ -77,3 +77,6 @@ imgDf.to_csv('usedTrainData.csv', index=False)
 
 testDf, features, target, ID = images2Dataframe('beHappy.csv', 'testData/')
 testDf.to_csv('usedTestData.csv', index=False)
+
+
+# IT just for fun
